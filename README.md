@@ -10,3 +10,6 @@ A Python library for Persian utilities, including:
 ## Installation
 ```bash
 pip install pypersia
+```
+
+## Documnetion Getting Ready Soon!

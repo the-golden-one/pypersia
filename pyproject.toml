@@ -1,5 +1,5 @@
 [project]
-name = "pypersia_thegoldenone"
+name = "pypersia"
 version = "1.5.0"
 authors = [
   { name="Aria Farahmand", email="aria.farahmand1391@gmail.com" },

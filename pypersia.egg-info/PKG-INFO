@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: pypersia
-Version: 0.1
+Version: 1.5.0
 Summary: A Persian utility library for digit conversion, calendar calculations, text normalization, and more.
 Author: Aria Farahmand
 License: MIT

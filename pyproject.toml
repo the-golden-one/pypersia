@@ -12,8 +12,11 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 license = "MIT"
-license-files = ["LICEN[CS]E*"]
+license-files = ["LICENSE"]
 
 [project.urls]
 Homepage = "https://github.com/the-golden-one/pypersia"
 Issues = "https://github.com/the-golden-one/pypersia/issues"
+
+[tool.setuptools.packages.find]
+where = ["pypersia"]

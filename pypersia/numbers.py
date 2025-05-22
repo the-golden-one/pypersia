@@ -6,7 +6,6 @@ num_words = {
 }
 
 def number_to_persian_words(num: int) -> str:
-    """Convert large numbers to Persian words (supports up to 999 trillion)."""
     if num in num_words:
         return num_words[num]
 
@@ -21,7 +20,6 @@ def number_to_persian_words(num: int) -> str:
         return num_words[100] + " و " + convert_chunk(n % 100) if n % 100 else num_words[100]
 
     def split_number(n):
-        """Split number into trillions, billions, millions, thousands, and hundreds."""
         units = [("تریلیون", 1_000_000_000_000), ("میلیارد", 1_000_000_000),
                  ("میلیون", 1_000_000), ("هزار", 1_000)]
         result = []
